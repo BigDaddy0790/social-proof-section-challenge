@@ -178,8 +178,8 @@ h3 {
 @media (max-width: 1070px) {
   body {
     background-image:
-      url("C:/Users/bigda/Desktop/Web Development Course/Projects/Challenges/Social proof section/images/bg-pattern-top-mobile.svg"),
-      url("C:/Users/bigda/Desktop/Web Development Course/Projects/Challenges/Social proof section/images/bg-pattern-bottom-mobile.svg");
+      url("images/bg-pattern-top-mobile.svg"),
+      url("images/bg-pattern-bottom-mobile.svg");
     background-position: top left, right bottom;
     background-repeat: no-repeat;
   }
