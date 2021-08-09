@@ -1,0 +1,336 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image:
+    url("C:/Users/bigda/Desktop/Web Development Course/Projects/Challenges/Social proof section/images/bg-pattern-top-desktop.svg"),
+    url("C:/Users/bigda/Desktop/Web Development Course/Projects/Challenges/Social proof section/images/bg-pattern-bottom-desktop.svg");
+  background-position: top left, right bottom;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 45px;
+  color: #502050;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #937b92;
+}
+
+p {
+  color: #ffff;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+  padding-top: 0.8em;
+}
+
+h3 {
+  font-size: 14px;
+  padding-left: 10em;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1em 2fr 2fr;
+  grid-template-rows: 5em 5em 5em 4em minmax(1em, auto);
+  width: 75em;
+  height: 37.5em;
+  margin: auto;
+  gap: 10px;
+}
+
+.header-text {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  width: 27em;
+  margin-left: 3em;
+}
+
+.stars1 {
+  grid-column: 4 / 6;
+  grid-row: 1;
+  background-color: #f7f2f7;
+  justify-self: start;
+  align-self: center;
+  margin: 4em 3em 0 1em;
+  padding-left: 1.5em;
+  padding-top: 8px;
+  height: 3.2em;
+  width: 26em;
+  border-radius: 10px;
+  color: #502050;
+}
+
+.stars2 {
+  grid-column: 4 / 6;
+  grid-row: 2;
+  background-color: #f7f2f7;
+  justify-self: center;
+  align-self: center;
+  margin: 4em 3em 0 1em;
+  padding-left: 1.5em;
+  padding-top: 8px;
+  height: 3.2em;
+  width: 26em;
+  border-radius: 10px;
+  color: #502050;
+}
+
+.stars3 {
+  grid-column: 4 / 6;
+  grid-row: 3;
+  background-color: #f7f2f7;
+  justify-self: end;
+  align-self: center;
+  margin: 4em 3em 0 1em;
+  padding-left: 1.5em;
+  padding-top: 8px;
+  height: 3.2em;
+  width: 26em;
+  border-radius: 10px;
+  color: #502050;
+}
+
+.star-icon {
+  padding: 12px 0 0 6px;
+  float: left;
+}
+
+.reviews1 {
+  grid-column: 1 / 3;
+  grid-row: 5;
+  background-color: #502050;
+  justify-self: start;
+  width: 18em;
+  height: 10em;
+  margin-left: 3em;
+  padding: 2em;
+  border-radius: 2%;
+}
+
+.rev-img {
+  border-radius: 100px;
+  width: 40px;
+  float: left;
+}
+
+.reviews2 {
+  grid-column: 2 / 5;
+  grid-row: 5;
+  background-color: #502050;
+  justify-self: center;
+  width: 18em;
+  height: 10em;
+  padding: 2em;
+  margin-top: 1em;
+  border-radius: 2%;
+}
+
+.reviews3 {
+  grid-column: 4 / 6;
+  grid-row: 5;
+  background-color: #502050;
+  justify-self: end;
+  width: 18em;
+  height: 10em;
+  margin-right: 3em;
+  padding: 2em;
+  margin-top: 2em;
+  border-radius: 2%;
+}
+
+.reviews-header {
+  margin-left: 3.5em;
+}
+
+.names {
+  margin: 0;
+  padding: 0;
+}
+
+.verified {
+  color: #ee68a4;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+}
+
+.attribution {
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1070px) {
+  body {
+    background-image:
+      url("C:/Users/bigda/Desktop/Web Development Course/Projects/Challenges/Social proof section/images/bg-pattern-top-mobile.svg"),
+      url("C:/Users/bigda/Desktop/Web Development Course/Projects/Challenges/Social proof section/images/bg-pattern-bottom-mobile.svg");
+    background-position: top left, right bottom;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 2.1rem;
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  h3 {
+    padding: 0;
+    text-align: center;
+    margin: 0.5rem 0 0 0;
+  }
+
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+    margin-top: 5em;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 100vw;
+    height: auto;
+    position: relative;
+  }
+
+  .header-text {
+    width: 19em;
+    margin: 0;
+    align-self: center;
+    text-align: center;
+  }
+
+  .stars1 {
+    background-color: #f7f2f7;
+    margin: 2rem 0 0.5rem 0;
+    padding: 0;
+    height: 4.7em;
+    width: 19em;
+    border-radius: 10px;
+    color: #502050;
+  }
+
+  .stars2 {
+    background-color: #f7f2f7;
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    height: 4.7em;
+    width: 19em;
+    border-radius: 10px;
+    color: #502050;
+  }
+
+  .stars3 {
+    background-color: #f7f2f7;
+    align-self: center;
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    height: 4.7em;
+    width: 19em;
+    border-radius: 10px;
+    color: #502050;
+  }
+
+  .star-icon {
+    padding: 3px;
+    margin: 0.2rem 0 0 0;
+    float: none;
+  }
+
+  .star-icon-all {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+    padding-bottom: 2px;
+  }
+
+  .reviews1 {
+    background-color: #502050;
+    align-self: center;
+    width: 15em;
+    height: 10em;
+    margin: 2rem 0 0 0;
+    padding: 2em;
+    border-radius: 4%;
+  }
+
+  .rev-img {
+    border-radius: 100px;
+    width: 40px;
+    float: left;
+    margin-right: 1.3rem;
+  }
+
+  .reviews2 {
+    background-color: #502050;
+    align-self: center;
+    width: 15em;
+    height: 10em;
+    margin: 0;
+    padding: 2em;
+    border-radius: 4%;
+  }
+
+  .reviews3 {
+    background-color: #502050;
+    align-self: center;
+    width: 15em;
+    height: 10em;
+    margin: 0;
+    padding: 2em;
+    border-radius: 4%;
+  }
+
+  .reviews-header {
+    margin-left: 3.5em;
+  }
+
+  .names {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+  }
+
+  .verified {
+    color: #ee68a4;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+  }
+
+  .attribution {
+    margin: auto;
+    padding-top: 3rem;
+    font-size: 10px;
+    text-align: center;
+  }
+}
